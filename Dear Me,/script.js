@@ -10,7 +10,6 @@ function unlockDiary() {
     alert('Incorrect password!');
     event.preventDefault();
     return;
-    locked = true;
   } 
 }
 function lockDiary() {
@@ -20,7 +19,7 @@ function lockDiary() {
   locked = true;
 }
 
-function saveEntry(locked) {
+function saveEntry() {
   if (locked) {
     alert('Please unlock the diary first.');
     return;
