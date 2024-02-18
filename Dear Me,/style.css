@@ -1,0 +1,47 @@
+body{
+    background-color: rebeccapurple;
+    margin: 0;
+}
+.passwordSection{
+    border: 3000px;
+    border-color: red;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 0;
+    margin-top: 70px;
+}
+.diary{
+    display: none;
+}
+.headerV{
+    font-size: 50px;
+    color: white;
+}
+.diaryContent{
+    padding-left: 30px;
+}
+button{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: rgb(156, 78, 235);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entryHead{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: rgb(156, 78, 235);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#entryHead::placeholder{
+    color: white;
+}
