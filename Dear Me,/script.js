@@ -17,6 +17,7 @@ function lockDiary() {
   document.getElementById('diary').style.display = 'none';
   document.getElementById('password').value = '';
   locked = true;
+  return;
 }
 
 function saveEntry() {
