@@ -1,23 +1,23 @@
-let locked = true;
+let locked = false;
 
 function unlockDiary() {
   const password = document.getElementById('password').value;
  if (password === '1234') {
     document.getElementById('lock').style.display = 'none';
     document.getElementById('diary').style.display = 'block';
-    locked = false;
+    locked = true;
   } else {
     alert('Incorrect password!');
     event.preventDefault();
     return;
-    locked = true;
+    locked = false;
   } 
 }
 function lockDiary() {
   document.getElementById('lock').style.display = 'block';
   document.getElementById('diary').style.display = 'none';
   document.getElementById('password').value = '';
-  locked = true;
+  locked = false;
 }
 
 function saveEntry() {
