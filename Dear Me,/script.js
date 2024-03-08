@@ -10,6 +10,7 @@ function unlockDiary() {
     alert('Incorrect password!');
     event.preventDefault();
     return;
+    locked = true;
   } 
 }
 function lockDiary() {
