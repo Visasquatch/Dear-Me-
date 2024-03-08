@@ -28,3 +28,5 @@ function saveEntry() {
   const entryHead = document.getElementById('entryHead').value;
   alert('Entry saved\nTitle: ' + entryHead);
 }
+
+//locked in this sense is sort of "unlocked"
